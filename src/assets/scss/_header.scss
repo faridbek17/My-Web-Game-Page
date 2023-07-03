@@ -1,0 +1,94 @@
+.header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../../components/header/img/background2.png);
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    &__logo{
+        font-size: 20px;
+        color: #aaa;
+    }
+
+    &__link{
+        color: #d2d2d2;
+        font-size: 20px;
+        font-weight: 200;
+        padding-right: 40px;
+        transition: 0.3s;
+
+        &:hover{
+            color: #ffbf00;
+        }
+    }
+
+    &__btn{
+        padding: 14px 26px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #4EA4DC;
+        border: 2px solid #4EA4DC;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover{
+            font-weight: bold;
+            color: #4EA4DC;
+            background: none;
+            border: 2px solid #4EA4DC;
+        }
+    }
+
+
+    &__content{
+        padding-top: 210px;
+
+        &-h3{
+            font-size: 22px;
+            font-weight: 200;
+            color: #4EA4DC;
+            padding-bottom: 10px;
+        }
+
+        &-h1{
+            font-size: 82px;
+            color: #fff;
+            padding-bottom: 20px;
+        }
+
+        &-p{
+            font-size: 22px;
+            color: #aaa;
+            padding-bottom: 40px;
+        }
+
+        &-btn{
+            padding: 14px 26px;
+            color: #4EA4DC;
+            background: none;
+            font-weight: bold;
+            border: 1px solid #4EA4DC;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-right: 20px;
+    
+            &:hover{
+                font-weight: bold;
+                color: #fff;
+                background-color: #4EA4DC;
+                border: 1px solid #4EA4DC;
+            }
+        }
+    }
+
+}

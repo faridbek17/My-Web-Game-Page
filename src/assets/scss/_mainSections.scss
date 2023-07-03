@@ -1,0 +1,135 @@
+.main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #3C3153;
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__content{
+        background-image: url(../../components/main/img/main_bc.png);
+        position: relative;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &-1{
+            text-align: center;
+            padding-top: 80px;
+            color: #fff;
+        }
+
+        &-title{
+            font-size: 48px;
+            padding-bottom: 40px;
+        }
+
+        &-p{
+            color: #aaa;
+            font-size: 18px;
+            padding-bottom: 60px;
+        }
+
+        &-2{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-box{
+            width: 350px;
+            height: 350px;
+            background-color: #3C3153;
+            box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            
+            &-icons{
+                width: 90px;
+                height: 90px;
+                background-color: #fff;
+                border-radius: 50%;
+                margin: 60px auto 20px auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            &-h1{
+                color: #fff;
+                font-size: 28px;
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            
+            &-p{
+                color: #aaa;
+                text-align: center;
+            }
+        }
+
+
+    }
+}
+
+
+
+.maincenter{
+    width: 100%;
+    height: 724px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 60% 0 ;
+    box-shadow: 0px 0px 35px 4px rgba(0, 0, 0, 0.2);
+
+    &__img{
+        background-image: url(../../components/main/img/main-center-img.png);
+        width: 620px;
+        height: 570px;
+        margin-right: 98px;
+    }
+
+    &__content{
+        
+
+        &-h3{
+            font-size: 18px;
+            font-weight: 200;
+            color: #4EA4DC;
+            padding-bottom: 10px;
+        }
+
+        &-h1{
+            font-size: 52px;
+            color: #fff;
+            padding-bottom: 25px;
+        }
+
+        &-p{
+            font-size: 18px;
+            color: #aaa;
+            padding-bottom: 32px;
+        }
+        
+        &-p2{
+            font-size: 18px;
+            color: #aaa;
+            padding-bottom: 35px;
+        }
+
+        &-btn{
+            padding: 15px 30px;
+            color: #fff;
+            background-color: #4EA4DC;
+            border: 2px solid #4EA4DC;
+            border-radius: 6px;
+            transition: 0.3s;
+            cursor: pointer;
+
+            &:hover{
+                background: none;
+                color: #4EA4DC;
+            }
+        }
+
+    }
+
+}
