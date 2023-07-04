@@ -43,7 +43,7 @@ import React from 'react'
       </div>
 
       <div className="maincenter container">
-          <div className="maincenter__img"></div>
+        <div className="maincenter__img"></div>
 
           <div className="maincenter__content">
               <h3 className='maincenter__content-h3'>HOW IT WORKS!</h3>
@@ -54,8 +54,42 @@ import React from 'react'
           </div>
       </div>
 
-    </div>
 
+
+      <div className="mainbottom container">
+
+        <div className="mainbottom__content">
+
+          <div className="mainbottom__content-box">
+
+              <div className="mainbottom__content-left">
+                <h3 className='mainbottom__content-h3'>Playing is a new Skill</h3>
+                <h1 className='mainbottom__content-h1'>Hold different,Play different</h1>
+                <p className='mainbottom__content-p'>Starting a game store business can be an exciting <br /> way to achieve your entrepreneurial dreams <br /> while doing something that you love.</p>
+                <p className='mainbottom__content-p2'>Game stores are highly specialized and interesting <br /> shops selling entertainment products.</p>
+              </div>
+
+              <div className="mainbottom__content-cart">
+                <div className="mainbottom__content-box-1">
+                  <button className='mainbottom__content-box-btn'>Play now</button>
+                </div>
+                <div className="mainbottom__content-box-1">
+                  <button className='mainbottom__content-box-btn'>Play now</button>
+                </div>
+                <div className="mainbottom__content-box-1">
+                  <button className='mainbottom__content-box-btn'>Play now</button>
+                </div>
+              </div>
+
+              {/* <div className="mainbottom__content-btns">
+                <button className='mainbottom__content-btn'>Try free</button>
+                <button className='mainbottom__content-btn'>Download</button>
+              </div> */}
+          </div>
+        </div>
+          <div className="mainbottom__img"></div> 
+      </div>
+    </div>
 
   )
 }
